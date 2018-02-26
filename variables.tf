@@ -1,11 +1,11 @@
 variable "aws_key_name" {
   description = "ssh key pair name"
-  default = "celidor-training"
+  default = "Junior"
 }
 
 variable "aws_region" {
   description = "AWS region to launch servers."
-  default     = "eu-west-1"
+  default     = "eu-west-2"
 }
 
 variable "environment" {}
@@ -22,10 +22,10 @@ variable "aws_amis" {
 
 variable "zone_id" {
   description = "Route53 Zone ID"
-  default     = "Z1MX3O8HWEIIH4" # Zone ID for celidor.io
+  default     = "Z256DBHDA4OKRD" # Zone ID for tsegaye.co.uk
 }
 
 variable "domain" {
   description = "root domain"
-  default     = "celidor.io"
+  default     = "tsegaye.co.uk"
 }
